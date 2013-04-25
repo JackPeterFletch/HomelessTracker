@@ -1,8 +1,8 @@
 class CreateHomelesses < ActiveRecord::Migration
   def change
     create_table :homelesses do |t|
-      t.string :latitude
-      t.string :longitude
+      t.float :latitude
+      t.float :longitude
       t.string :address
       t.string :district
       t.string :representative

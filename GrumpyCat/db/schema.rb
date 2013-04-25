@@ -14,8 +14,8 @@
 ActiveRecord::Schema.define(:version => 20130425193040) do
 
   create_table "homelesses", :force => true do |t|
-    t.string   "latitude"
-    t.string   "longitude"
+    t.float    "latitude"
+    t.float    "longitude"
     t.string   "address"
     t.string   "district"
     t.string   "representative"
