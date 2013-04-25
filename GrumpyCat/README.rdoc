@@ -1,0 +1,10 @@
+== Getting Started ==
+
+Make sure you have both Ruby and Rails installed in your environment.
+
+Install some dependencies:
+sudo apt-get install libxslt-dev libxml2-dev
+
+Run 'bundle install'
+
+Run 'rails server'

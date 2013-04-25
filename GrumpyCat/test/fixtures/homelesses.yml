@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  latitude: MyString
+  longitude: MyString
+  address: MyString
+  district: MyString
+  representative: MyString
+  email: MyString
+
+two:
+  latitude: MyString
+  longitude: MyString
+  address: MyString
+  district: MyString
+  representative: MyString
+  email: MyString
