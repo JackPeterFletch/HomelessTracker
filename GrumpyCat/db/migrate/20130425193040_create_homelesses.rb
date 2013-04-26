@@ -8,6 +8,10 @@ class CreateHomelesses < ActiveRecord::Migration
       t.string :district
       t.string :representative
       t.string :email
+      t.string :gender
+      t.string :office
+      t.string :twitter
+      t.string :phone
 
       t.timestamps
     end

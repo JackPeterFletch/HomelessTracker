@@ -21,6 +21,10 @@ ActiveRecord::Schema.define(:version => 20130425193040) do
     t.string   "district"
     t.string   "representative"
     t.string   "email"
+    t.string   "gender"
+    t.string   "office"
+    t.string   "twitter"
+    t.string   "phone"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
   end

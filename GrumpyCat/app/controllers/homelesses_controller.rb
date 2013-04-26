@@ -3,7 +3,10 @@ require 'sunlight'
 class HomelessesController < ApplicationController
 
   def show
-    @homeless = Homeless.find(params[:id])
+    homeless = Homeless.find(params[:id])
+    homeless.nearby = homeless.nearbys(5).count
+    homeless.save
+    @homeless = homeless
   end 
 
   def nearby
@@ -33,6 +36,10 @@ class HomelessesController < ApplicationController
     name = representative.firstname + " " + representative.lastname + " " + "(" + party + ")"
     email = representative.email
     district = representative.district
+    gender = representative.gender
+    office = representative.congress_office
+    twitter = representative.twitter_id
+    phone = representative.phone
 
     @first_homeless = nil
     i = 0
@@ -43,8 +50,11 @@ class HomelessesController < ApplicationController
       homeless.email = email
       homeless.district = district
       homeless.representative = name
-      number = homeless.nearbys(5).count
-      homeless.nearby = number
+      homeless.nearby = homeless.nearbys(5).count
+      homeless.gender = gender
+      homeless.office = office
+      homeless.twitter = twitter
+      homeless.phone = phone
       homeless.save
       if i == 0
         @first_homeless = homeless
