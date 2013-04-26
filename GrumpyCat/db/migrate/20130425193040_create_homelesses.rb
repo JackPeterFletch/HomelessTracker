@@ -3,6 +3,7 @@ class CreateHomelesses < ActiveRecord::Migration
     create_table :homelesses do |t|
       t.float :latitude
       t.float :longitude
+      t.integer :nearby
       t.string :address
       t.string :district
       t.string :representative

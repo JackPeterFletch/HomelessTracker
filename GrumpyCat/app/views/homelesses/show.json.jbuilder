@@ -1,1 +1,1 @@
-json.(@homeless, :id, :latitude, :logitude, :address, :district, :representative, :email)
+json.(@homeless, :id, :latitude, :longitude, :address, :district, :representative, :email, :nearby)

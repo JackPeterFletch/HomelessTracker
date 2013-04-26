@@ -7,7 +7,8 @@ class HomelessesController < ApplicationController
   end 
 
   def nearby
-    @homelesses = Homeless.all
+    homeless = Homeless.find(params[:id])
+    @homelesses = homeless.nearbys(params[:distance])
   end 
 
   def index
@@ -28,7 +29,8 @@ class HomelessesController < ApplicationController
  
     firstname = representative.firstname
     lastname = representative.lastname
-    name = representative.firstname + " " + representative.lastname
+    party = representative.party
+    name = representative.firstname + " " + representative.lastname + " " + "(" + party + ")"
     email = representative.email
     district = representative.district
 
@@ -41,6 +43,8 @@ class HomelessesController < ApplicationController
       homeless.email = email
       homeless.district = district
       homeless.representative = name
+      number = homeless.nearbys(5).count
+      homeless.nearby = number
       homeless.save
       if i == 0
         @first_homeless = homeless

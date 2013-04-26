@@ -5,6 +5,7 @@ GrumpyCat::Application.routes.draw do
   resources :homelesses
 
   match 'homeless/:lat/:long/:count' => 'homelesses#create'
+  match 'homeless/:id/:distance' => 'homelesses#nearby'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
