@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		469C52211729B70A00DB885C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469C52201729B70A00DB885C /* UIKit.framework */; };
+		469C52231729B70A00DB885C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469C52221729B70A00DB885C /* Foundation.framework */; };
+		469C52251729B70A00DB885C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469C52241729B70A00DB885C /* CoreGraphics.framework */; };
+		469C522B1729B70A00DB885C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 469C52291729B70A00DB885C /* InfoPlist.strings */; };
+		469C522D1729B70A00DB885C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C522C1729B70A00DB885C /* main.m */; };
+		469C52311729B70A00DB885C /* CISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C52301729B70A00DB885C /* CISAppDelegate.m */; };
+		469C52331729B70A00DB885C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 469C52321729B70A00DB885C /* Default.png */; };
+		469C52351729B70A00DB885C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469C52341729B70A00DB885C /* Default@2x.png */; };
+		469C52371729B70A00DB885C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469C52361729B70A00DB885C /* Default-568h@2x.png */; };
+		469C523A1729B70A00DB885C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469C52381729B70A00DB885C /* MainStoryboard.storyboard */; };
+		469C523D1729B70A00DB885C /* CISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C523C1729B70A00DB885C /* CISViewController.m */; };
+		469C52451729BA6E00DB885C /* CISMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C52441729BA6E00DB885C /* CISMapViewController.m */; };
+		469C52481729BA9400DB885C /* CISMailerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C52471729BA9400DB885C /* CISMailerViewController.m */; };
+		469C52541729BDE000DB885C /* HeatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C52511729BDE000DB885C /* HeatMap.m */; };
+		469C52551729BDE000DB885C /* HeatMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C52531729BDE000DB885C /* HeatMapView.m */; };
+		469C52571729BE1B00DB885C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469C52561729BE1B00DB885C /* MapKit.framework */; };
+		469C52591729C39500DB885C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469C52581729C39500DB885C /* CoreLocation.framework */; };
+		469C525D1729EDEE00DB885C /* CISHomeless.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C525C1729EDEE00DB885C /* CISHomeless.m */; };
+		469C5260172A01E300DB885C /* CISThanksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C525F172A01E300DB885C /* CISThanksViewController.m */; };
+		469C5263172A28D200DB885C /* CISInformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 469C5262172A28D200DB885C /* CISInformViewController.m */; };
+		469C5265172A33B700DB885C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469C5264172A33B700DB885C /* Twitter.framework */; };
+		469C5267172A3CA100DB885C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469C5266172A3CA100DB885C /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		469C521D1729B70A00DB885C /* Homeless Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homeless Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		469C52201729B70A00DB885C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		469C52221729B70A00DB885C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		469C52241729B70A00DB885C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		469C52281729B70A00DB885C /* Homeless Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homeless Tracker-Info.plist"; sourceTree = "<group>"; };
+		469C522A1729B70A00DB885C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		469C522C1729B70A00DB885C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		469C522E1729B70A00DB885C /* Homeless Tracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homeless Tracker-Prefix.pch"; sourceTree = "<group>"; };
+		469C522F1729B70A00DB885C /* CISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CISAppDelegate.h; sourceTree = "<group>"; };
+		469C52301729B70A00DB885C /* CISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CISAppDelegate.m; sourceTree = "<group>"; };
+		469C52321729B70A00DB885C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		469C52341729B70A00DB885C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		469C52361729B70A00DB885C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		469C52391729B70A00DB885C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		469C523B1729B70A00DB885C /* CISViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CISViewController.h; sourceTree = "<group>"; };
+		469C523C1729B70A00DB885C /* CISViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CISViewController.m; sourceTree = "<group>"; };
+		469C52431729BA6E00DB885C /* CISMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CISMapViewController.h; sourceTree = "<group>"; };
+		469C52441729BA6E00DB885C /* CISMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CISMapViewController.m; sourceTree = "<group>"; };
+		469C52461729BA9400DB885C /* CISMailerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CISMailerViewController.h; sourceTree = "<group>"; };
+		469C52471729BA9400DB885C /* CISMailerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CISMailerViewController.m; sourceTree = "<group>"; };
+		469C52501729BDE000DB885C /* HeatMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatMap.h; sourceTree = "<group>"; };
+		469C52511729BDE000DB885C /* HeatMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeatMap.m; sourceTree = "<group>"; };
+		469C52521729BDE000DB885C /* HeatMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatMapView.h; sourceTree = "<group>"; };
+		469C52531729BDE000DB885C /* HeatMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeatMapView.m; sourceTree = "<group>"; };
+		469C52561729BE1B00DB885C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		469C52581729C39500DB885C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		469C525B1729EDEE00DB885C /* CISHomeless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CISHomeless.h; sourceTree = "<group>"; };
+		469C525C1729EDEE00DB885C /* CISHomeless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CISHomeless.m; sourceTree = "<group>"; };
+		469C525E172A01E300DB885C /* CISThanksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CISThanksViewController.h; sourceTree = "<group>"; };
+		469C525F172A01E300DB885C /* CISThanksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CISThanksViewController.m; sourceTree = "<group>"; };
+		469C5261172A28D200DB885C /* CISInformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CISInformViewController.h; sourceTree = "<group>"; };
+		469C5262172A28D200DB885C /* CISInformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CISInformViewController.m; sourceTree = "<group>"; };
+		469C5264172A33B700DB885C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		469C5266172A3CA100DB885C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469C521A1729B70A00DB885C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469C5267172A3CA100DB885C /* MessageUI.framework in Frameworks */,
+				469C5265172A33B700DB885C /* Twitter.framework in Frameworks */,
+				469C52591729C39500DB885C /* CoreLocation.framework in Frameworks */,
+				469C52571729BE1B00DB885C /* MapKit.framework in Frameworks */,
+				469C52211729B70A00DB885C /* UIKit.framework in Frameworks */,
+				469C52231729B70A00DB885C /* Foundation.framework in Frameworks */,
+				469C52251729B70A00DB885C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469C52141729B70A00DB885C = {
+			isa = PBXGroup;
+			children = (
+				469C5266172A3CA100DB885C /* MessageUI.framework */,
+				469C5264172A33B700DB885C /* Twitter.framework */,
+				469C52581729C39500DB885C /* CoreLocation.framework */,
+				469C52561729BE1B00DB885C /* MapKit.framework */,
+				469C52261729B70A00DB885C /* Hungry Hungry Hobos */,
+				469C521F1729B70A00DB885C /* Frameworks */,
+				469C521E1729B70A00DB885C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		469C521E1729B70A00DB885C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469C521D1729B70A00DB885C /* Homeless Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469C521F1729B70A00DB885C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				469C52201729B70A00DB885C /* UIKit.framework */,
+				469C52221729B70A00DB885C /* Foundation.framework */,
+				469C52241729B70A00DB885C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		469C52261729B70A00DB885C /* Hungry Hungry Hobos */ = {
+			isa = PBXGroup;
+			children = (
+				469C525A1729EDC500DB885C /* Homeless */,
+				469C524F1729BDC600DB885C /* HeatMapCode */,
+				469C522F1729B70A00DB885C /* CISAppDelegate.h */,
+				469C52301729B70A00DB885C /* CISAppDelegate.m */,
+				469C52381729B70A00DB885C /* MainStoryboard.storyboard */,
+				469C523B1729B70A00DB885C /* CISViewController.h */,
+				469C523C1729B70A00DB885C /* CISViewController.m */,
+				469C52271729B70A00DB885C /* Supporting Files */,
+				469C52431729BA6E00DB885C /* CISMapViewController.h */,
+				469C52441729BA6E00DB885C /* CISMapViewController.m */,
+				469C52461729BA9400DB885C /* CISMailerViewController.h */,
+				469C52471729BA9400DB885C /* CISMailerViewController.m */,
+				469C525E172A01E300DB885C /* CISThanksViewController.h */,
+				469C525F172A01E300DB885C /* CISThanksViewController.m */,
+				469C5261172A28D200DB885C /* CISInformViewController.h */,
+				469C5262172A28D200DB885C /* CISInformViewController.m */,
+			);
+			path = "Hungry Hungry Hobos";
+			sourceTree = "<group>";
+		};
+		469C52271729B70A00DB885C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469C52281729B70A00DB885C /* Homeless Tracker-Info.plist */,
+				469C52291729B70A00DB885C /* InfoPlist.strings */,
+				469C522C1729B70A00DB885C /* main.m */,
+				469C522E1729B70A00DB885C /* Homeless Tracker-Prefix.pch */,
+				469C52321729B70A00DB885C /* Default.png */,
+				469C52341729B70A00DB885C /* Default@2x.png */,
+				469C52361729B70A00DB885C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		469C524F1729BDC600DB885C /* HeatMapCode */ = {
+			isa = PBXGroup;
+			children = (
+				469C52501729BDE000DB885C /* HeatMap.h */,
+				469C52511729BDE000DB885C /* HeatMap.m */,
+				469C52521729BDE000DB885C /* HeatMapView.h */,
+				469C52531729BDE000DB885C /* HeatMapView.m */,
+			);
+			name = HeatMapCode;
+			sourceTree = "<group>";
+		};
+		469C525A1729EDC500DB885C /* Homeless */ = {
+			isa = PBXGroup;
+			children = (
+				469C525B1729EDEE00DB885C /* CISHomeless.h */,
+				469C525C1729EDEE00DB885C /* CISHomeless.m */,
+			);
+			name = Homeless;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469C521C1729B70A00DB885C /* Homeless Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469C52401729B70A00DB885C /* Build configuration list for PBXNativeTarget "Homeless Tracker" */;
+			buildPhases = (
+				469C52191729B70A00DB885C /* Sources */,
+				469C521A1729B70A00DB885C /* Frameworks */,
+				469C521B1729B70A00DB885C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homeless Tracker";
+			productName = "Hungry Hungry Hobos";
+			productReference = 469C521D1729B70A00DB885C /* Homeless Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469C52151729B70A00DB885C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CIS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Cisco;
+			};
+			buildConfigurationList = 469C52181729B70A00DB885C /* Build configuration list for PBXProject "Homeless Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 469C52141729B70A00DB885C;
+			productRefGroup = 469C521E1729B70A00DB885C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469C521C1729B70A00DB885C /* Homeless Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469C521B1729B70A00DB885C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469C522B1729B70A00DB885C /* InfoPlist.strings in Resources */,
+				469C52331729B70A00DB885C /* Default.png in Resources */,
+				469C52351729B70A00DB885C /* Default@2x.png in Resources */,
+				469C52371729B70A00DB885C /* Default-568h@2x.png in Resources */,
+				469C523A1729B70A00DB885C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469C52191729B70A00DB885C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469C522D1729B70A00DB885C /* main.m in Sources */,
+				469C52311729B70A00DB885C /* CISAppDelegate.m in Sources */,
+				469C523D1729B70A00DB885C /* CISViewController.m in Sources */,
+				469C52451729BA6E00DB885C /* CISMapViewController.m in Sources */,
+				469C52481729BA9400DB885C /* CISMailerViewController.m in Sources */,
+				469C52541729BDE000DB885C /* HeatMap.m in Sources */,
+				469C52551729BDE000DB885C /* HeatMapView.m in Sources */,
+				469C525D1729EDEE00DB885C /* CISHomeless.m in Sources */,
+				469C5260172A01E300DB885C /* CISThanksViewController.m in Sources */,
+				469C5263172A28D200DB885C /* CISInformViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		469C52291729B70A00DB885C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469C522A1729B70A00DB885C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		469C52381729B70A00DB885C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469C52391729B70A00DB885C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469C523E1729B70A00DB885C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		469C523F1729B70A00DB885C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469C52411729B70A00DB885C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hungry Hungry Hobos/Homeless Tracker-Prefix.pch";
+				INFOPLIST_FILE = "Hungry Hungry Hobos/Homeless Tracker-Info.plist";
+				PRODUCT_NAME = "Homeless Tracker";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		469C52421729B70A00DB885C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hungry Hungry Hobos/Homeless Tracker-Prefix.pch";
+				INFOPLIST_FILE = "Hungry Hungry Hobos/Homeless Tracker-Info.plist";
+				PRODUCT_NAME = "Homeless Tracker";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469C52181729B70A00DB885C /* Build configuration list for PBXProject "Homeless Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469C523E1729B70A00DB885C /* Debug */,
+				469C523F1729B70A00DB885C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469C52401729B70A00DB885C /* Build configuration list for PBXNativeTarget "Homeless Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469C52411729B70A00DB885C /* Debug */,
+				469C52421729B70A00DB885C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469C52151729B70A00DB885C /* Project object */;
+}
