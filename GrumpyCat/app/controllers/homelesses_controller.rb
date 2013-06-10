@@ -9,6 +9,10 @@ class HomelessesController < ApplicationController
     @homeless = homeless
   end 
 
+  def map
+    @homelesses = Homeless.all
+  end 
+
   def nearby
     homeless = Homeless.find(params[:id])
     @homelesses = homeless.nearbys(params[:distance])
