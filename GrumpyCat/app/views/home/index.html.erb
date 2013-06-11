@@ -1,2 +1,41 @@
-<h1>Project Grumpy Cat</h1>
-<img src="grumpy_cat.jpg">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Community Technology Alliance</title>
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+    </style>
+  </head>
+  <body>
+    <p>
+      <center>
+        <table align="center">
+          <tr>
+            <table>
+              <td width="333">
+                <img style="width: 100%;" src="logo_cisco.png">
+              </td>
+              <td>
+                <img style="width: 100%;" src="logo.jpg">
+              </td>
+            </table>
+          </tr>
+          <tr>
+            <table>
+              <td>
+                <%= link_to "View Data", homelesses_path %>
+              </td>
+              <td width="50">
+              </td>
+              <td>
+                <%= link_to "View Heat Map", map_path %>
+              </td>
+            </table>
+          </tr>
+        </table>
+      </center>
+    </p>
+  </body>
+</html>
